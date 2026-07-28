@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="main.js" defer></script>
+	<title> Learn About Snakes </title>
+</head>
+
+
+<body class=indexbody>
+	<header>
+		<h1 id= "indexheader">Snakes</h1>
+	</header>
+	
+	
+	<nav id="indexnav"> <!--menu system--> 
+		<img id="menuicon" src="images/menucog.png" height="500" alt="dropdown menu icon" title=" Dropdown menu icon">
+		<div class=pagelist>
+			<ul>
+				<li><p class=indexpagename id="page0btn">Home page </p></li>
+				<li><p class=indexpagename id="page1btn">Snakes Diet</p></li>
+				<li><p class=indexpagename id="page2btn">Different Snake Species</p></li>
+				<li><p class=indexpagename id="page3btn">Snakes In Food</p></li>
+				<li><p class=indexpagename id="page4btn">Mini-Game</p></li>
+			</ul>
+		</div>
+	</nav>
+		
+	<!--page 0 content (homepage)--> 
+	<main id="pagecontainer">
+		<div class=page id="page0">
+			<p class=indexparagraph> There are over 4,000 types of snakes in the world. They are widely distributed, living everywhere except in Antarctica, Iceland, Ireland, Greenland, and New Zealand, and in some American states, those being Alaska, Hawaii, and Maine.  </p> 
+				
+			<figure>
+				<picture>
+					<img src="images/Snakeintro.jpg" height="500" alt="Picture of Snake" title=" Snake">
+				</picture>	
+				<figcaption> <a href="https://www.thainationalparks.com/" target="_blank"> "Trimeresurus sabahi fucatus - Banded Pit Viper" </a>  By Thai National Parks, Image © Thai National Parks / Government of Thailand.</figcaption>
+			</figure>
+
+			<p class=indexparagraph>  About 600 species are venomous. Of those, only about 200 can kill or significantly wound a human. Non-venomous snakes, which range from harmless garter snakes to the not-so-harmless python, dispatch their victims by swallowing them alive or constricting them to death. Whether they kill by striking with venom or squeezing, nearly all snakes eat their food whole, in sometimes astoundingly large portions. </p>
+
+			<p class=indexparagraph>  Almost all snakes are covered in scales. As reptiles, they’re cold blooded and must regulate their body temperature externally.  Scales serve several purposes: They trap moisture in arid climates and reduce friction as the snake moves. Several species of snakes are mostly scaleless, but even those have scales on their bellies. </p>
+
+			<figure>
+				<picture>
+					<img src="images/SnakeScales.jpg" height="500" alt="Picture of Snake Scales" title=" SnakeScale">
+				</picture>	
+				<figcaption> <a href="https://atmos.earth/ecological-wisdom/sliding-scales-symbolism-of-snakes/" target="_blank"> " Sliding Scales" </a>  By Edwin Giesbers / Nature PL, Image © Nature PL. </figcaption>
+			</figure>
+
+
+			<!--adds a grid to this part of page 0 to make it so that I can format them to be side by side--> 
+			<div class=paragrid>
+			
+				<div class=column1>
+					<p class=indexparagraph>  <span class=Paraheader> Anatomy and Physiology </span>  <span class=Parasubheader> Body Structure: </span>  Lacks external limbs, ear openings, and movable eyelids.  <span class=Parasubheader>  Internal Organs: </span>  Features elongated organs where the left lung is reduced or absent. <span class=Parasubheader> Waste Removal: </span>  Lacks a urinary bladder and excretes nitrogenous waste primarily as solid uric acid or urates. <span class=Parasubheader> Skin Shedding: </span>  Undergoes periodic ecdysis (sloughing) to remove parasites and accommodate growth. </p>
+				</div>
+
+				<div class=column2>
+					<p class=indexparagraph>  <span class=Paraheader> Senses and Feeding </span>  <span class=Parasubheader> Jacobson’s Organ: </span>  Uses a specialized vomeronasal organ on the roof of the mouth via a flicking tongue to track chemical scent trails in the air.  <span class=Parasubheader> Jaws and Swallowing: </span>  Possesses loosely jointed lower jaw bones and elastic ligaments that let them swallow large prey whole. <span class=Parasubheader> Venom Systems: </span>  Utilizes modified salivary glands and specialized fangs to inject toxic proteins that immobilize prey or aid digestion. </p>
+				</div>
+			
+			</div>
+
+			<figure>
+				<picture>
+					<img src="images/Snakebody.jpg" height="800" alt="Picture of Snake Anatomy" title=" SnakeBody">
+				</picture>	
+				<figcaption> <a href="https://reptilesmagazine.com/snake-anatomy/?srsltid=AfmBOooJBzz4ZWO3xFly1gCmYXVyyak6rsiduSUNSJXPDtFCe1zWfAKA" target="_blank"> " Snake Anatomy" </a>  By Douglas Mader, M.S., DVM, DABVP </figcaption>
+			</figure>
+			
+			<p class=indexparagraph> <span class=Parasubheader> Scan this QR code to learn more about Snakes!!! </span> </p>
+			
+			<figure id="QRcode">
+				<picture>
+					<img src="images/WikiQR.png" height="500" alt="QR code to snakes Wikipedia page" title=" Snakes Wikipedia QR code">
+				</picture>	
+			</figure>
+			
+			
+			<!--Fact generator code--> 
+			<p class=indexparagraph> <span class=Paraheader> Random Fact Generator </span>  Click this button to generate random facts around Snakes.</p>
+			
+			<button id="FactButton" class=indexparagraph>Click Here</button> 
+			
+			<button id="ResetFacts" class=indexparagraph>Reset</button> 
+		
+			<p id="FactsHere" class=indexparagraph> The facts will appear here </p>
+			
+			
+			<!--QR code to mobile, only viewable from PC view--> 
+			<p class=indexparagraph id="mobileview"> <span class=Parasubheader> Scan this QR on your phone for the phone version on the website </span> </p>
+			
+			<figure id="QRcode2">
+				<picture>
+					<img src="images/Mobile.png" height="500" alt="QR code for mobile view" title=" Mobile View QR code">
+				</picture>	
+			</figure>
+		</div>
+
+
+		<!--page 1 content (snake diet)--> 
+		<div class="page" id="page1">
+			<p class=indexparagraph> <span class=Paraheader> Diet Considerations: </span>  Snakes don't need to eat every day. The frequency at which they need to eat is determined by their size and age. <br> <br> <span class=Parasubheader> Some of the things snakes might eat include: </span> <br> Baby mice or rats <br> Adult mice or rats <br> Young birds like chicks <br> </p>
+			<figure>
+				<picture>
+					<img src="images/Snakeeat.jpg" height="500" alt="Picture of Snake Eating" title=" SnakeEating">
+				</picture>	
+				<figcaption> <a href="https://www.123rf.com/photo_3794636_snake-eating-a-rat.html" target="_blank"> " snake eating a rat" </a>  By aussieflash,  Image © aussieflash  </figcaption>
+			</figure>
+
+			<p class=indexparagraph> <span class=Paraheader> What Can't Snakes Eat? </span> <span class=Parasubheader> Snakes can't be fed: </span>  Fruits  <br> Vegetables <br> Grains <br> Processed foods <br> <br> All snakes are carnivores—they should eat whole prey only as much as possible for a balanced diet. If offering human foods, they typically can’t deviate from raw meats or eggs. <br> <br> <br> </p>
+			
+			<p class=indexparagraph> <span class=Paraheader> Live vs Frozen Prey for Snakes: </span>  Frozen prey is the diet of choice for snakes.  <span class=Parasubheader> Pros: </span>  Safest feeding option <br> More convenient to store <br> Providing live prey incurs ethical concerns  <br> Cost effective <br> Smaller chance of parasite transmission  <span class=Parasubheader> Cons: </span>  Some snakes, especially when sick, need the movement and smell of live prey to entice them to eat  </p>
+			<figure>
+				<picture>
+					<img src="images/Snakefrozen.jpg" id="frozenfood" height="500" alt="Picture of frozen snake food" title=" FrozenSnakeFood">
+				</picture>	
+				<figcaption> <a href="https://allanspetcenter.com/the-comprehensive-guide-to-transitioning-your-snake-to-frozen-food/" target="_blank"> " Frozen Snake Food " </a>  By Allan's Pet Center,  Image © Allan's Pet Center  </figcaption>
+			</figure>
+			
+			<p class=indexparagraph> <span class=Paraheader>  How to Feed a Snake </span>  You’ll want to purchase appropriately sized whole frozen prey from a pet store and keep it stored in a freezer. When feeding day is approaching, transfer the prey you plan to feed to its own bag and move from freezer to the refrigerator to thaw. Food should be ready in 1-2 days. A few hours before planning to feed, take the prey out of the refrigerator so they can come up to room temperature. Make sure you have washed your hands and do not smell like the prey, then transfer your snake from their enclosure to an appropriately sized plastic container with air holes. Place the whole, thawed prey inside with them. Wait for your snake to fully consume their meal before transferring them back to their main enclosure.  In snakes that stress easily and are already reluctant to eat, it may be more appropriate to feed prey in their enclosure </p>
+			<figure>
+				<picture>
+					<img src="images/Snakeeating.jpg" height="500" alt="Picture of teaching snake how to eat" title="Teaching Snake How To Eat">
+				</picture>	
+				<figcaption> <a href="https://www.wikihow.pet/Feed-a-Snake" target="_blank"> " How to feed your snake " </a>  By Wikihow.pet,  Image ©  Wikihow.pet  </figcaption>
+			</figure>
+				
+		</div>
+		
+		
+		<!--page 2 content (different species of snake)--> 
+		<div class="page" id="page2">
+		
+			<p class=indexparagraph> These snakes play a vital role in ecosystems by controlling populations of rodents, birds, amphibians, and other small animals. Each species has developed unique traits that help it survive in different environments. </p>
+			
+			<div class=paragrid2>
+				<div id="page2indexpara1">
+					<p class=indexparagraph> <span class=Paraheader> 1. King Cobra </span>  The King Cobra is the longest venomous snake in the world, reaching lengths of up to 5.5 meters. It lives in forests across South and Southeast Asia. Unlike most snakes, the king cobra mainly eats other snakes, including venomous ones. Its scientific name, Ophiophagus, means "snake eater." When threatened, it raises the front part of its body, spreads its hood, and hisses loudly to warn predators. Although its venom is very powerful, king cobras typically avoid humans unless they feel threatened. </p>
+					<figure id="page2indexpara1photo" >
+						<picture>
+							<img src="images/Kingcobra.jpg" height="400" alt="Picture of King Cobra" title="King Cobra">
+						</picture>	
+					<figcaption> <a href="https://ecofriendlycoffee.org/the-mystical-king-cobra-and-coffee-forests/" target="_blank"> " The Mystical King Cobra and Coffee Forests " </a>  By Dr. Anand Titus and Geeta N Pereira, Under the Creative Commons Attribution-Share Alike 2.0 Generic license </figcaption>
+					</figure>	
+				</div>
+				
+			
+				
+				<div id="page2indexpara2">
+					<p class=indexparagraph> <span class=Paraheader>2. Green Anaconda </span> The Green Anaconda is one of the heaviest snakes worldwide. It is native to the swamps, rivers, and wetlands of South America, where it can grow longer than 9 meters and weigh over 200 kilograms. Anacondas are non-venomous constrictors. They kill prey by wrapping their strong bodies around animals and tightening until the prey can no longer breathe. Their diet includes fish, birds, capybaras, caimans, and occasionally deer. </p>
+					<figure id="page2indexpara1photo2">
+						<picture>
+							<img src="images/GreenAnaconda.jpg" height="600" alt="Picture of Green Anaconda" title=" Picture of Green Anaconda">
+						</picture>	
+						<figcaption> <a href="https://www.henryvilaszoo.gov/animal/green-anaconda/" target="_blank"> "Green Anaconda" </a>  By Henry Vilas Zoo, Image © Henry Vilas Zoo.</figcaption>
+					</figure>
+				</div>
+				
+				
+				
+
+				<div id="page2indexpara3">
+					<p class=indexparagraph> <span class=Paraheader> 3. Ball Python </span> The Ball Python is a small, non-venomous snake that are found in West and Central Africa. It usually grows between 1 - 1.5 meters. This species is named for its defensive habit of curling into a tight ball when scared. Ball pythons are gentle and relatively easy to care for. Due to these reasons, they have become one of the most popular pet snakes in the world. They primarily hunt rodents and birds through constriction. </p>
+					<figure id="page2indexpara1photo3">
+						<picture>
+							<img src="images/BallPython.jpg" height="400" alt="Picture of a Ball Python" title=" Picture of Ball Python">
+						</picture>	
+						<figcaption> <a href="https://commons.wikimedia.org/wiki/File:Ball_python_lucy.JPG" target="_blank"> "Ball Python" </a>  By HCA,  Image © HCA.</figcaption>
+					</figure>
+				</div>
+
+				
+
+				<div id="page2indexpara4">
+					<p class=indexparagraph> <span class=Paraheader> 4. Black Mamba </span> The Black Mamba is one of Africa's most feared snakes. Despite its name, it is usually gray or olive-colored as the name refers to the dark inside of its mouth. Black mambas can grow over 4 meters long and are among the fastest snakes, able to move at around 20 km/h over short distances. Their venom targets the nervous system and can be deadly without quick medical attention. However, they typically prefer to flee rather than confront people. </p>
+					
+					<figure id="page2indexpara1photo4">
+						<picture>
+							<img src="images/BlackMamba.jpg" height="400" alt="Picture of a Black Mamba" title=" Picture of Black Mamba">
+						</picture>	
+						<figcaption> <a href="https://commons.wikimedia.org/wiki/File:Dendroaspis_polylepis_(14).jpg" target="_blank"> "Dendroaspis polylepis" </a>  By TimVickers,  Image © TimVickers.</figcaption>
+					</figure>
+				</div>
+
+
+				
+
+
+				<div id="page2indexpara5">
+					<p class=indexparagraph> <span class=Paraheader> 5. Corn Snake </span> The Corn Snake is a harmless, non-venomous species found in the southeastern United States. Adult corn snakes usually range in size between 1.2 and 1.8 meters. These snakes are excellent climbers and help farmers control rodent populations. Their striking orange, red, and black patterns have also made them popular pets. They kill prey through constriction and pose no major threat to humans.</p>
+					<figure id="page2indexpara1photo5">
+						<picture>
+							<img src="images/CornSnake.jpg" height="530" alt="Picture of a Corn Snake" title=" Picture of Corn Snake">
+						</picture>	
+						<figcaption> <a href="https://commons.wikimedia.org/wiki/File:CornSnake.jpg" target="_blank"> "Corn Snake" </a>  By Ethan Porcaro,  Image © Ethan Porcaro.</figcaption>
+					</figure>
+				</div>
+				
+			</div>
+			
+				
+				<!-- This quiz is a form where the data inputed, in this case being the different options, will be used by the javascript in order to see if it matches with the correct answer and return a score -->
+				<p class=indexparagraph> <span class=Paraheader> Snake Quiz </span></p>
+				<fieldset>
+				<legend class=Parasubheader>1. Which of these snakes are venomous? </legend>
+				<label><input type="radio" name="q1" value="Option1"> Green Anaconda</label>
+				<label><input type="radio" name="q1" value="Option2"> King Cobra</label>
+				<label><input type="radio" name="q1" value="Option3"> Ball Python</label>
+				<label><input type="radio" name="q1" value="Option4"> Corn Snake</label>
+				</fieldset>
+				
+				<fieldset>
+				<legend class=Parasubheader>2. Which Snake flees from humans when spotted?</legend>
+				<label><input type="radio" name="q2" value="Option1"> Green Anaconda</label>
+				<label><input type="radio" name="q2" value="Option2"> Ball Python</label>
+				<label><input type="radio" name="q2" value="Option3"> Black Mamba</label>
+				<label><input type="radio" name="q2" value="Option4"> King Cobra</label> 
+				</fieldset>
+				
+				<fieldset>
+				<legend class=Parasubheader>3. Why is the King Cobras scientific name Ophiophagus?</legend>
+				<label><input type="radio" name="q3" value="Option1"> Because they wanted a fancy name.</label> <br> <br>
+				<label><input type="radio" name="q3" value="Option2"> Because they eat other snakes.</label> <br> <br>
+				<label><input type="radio" name="q3" value="Option3"> Because they're incredibly slimy.</label> <br> <br>
+				<label><input type="radio" name="q3" value="Option4"> Because they're herbivores.</label>
+				</fieldset>
+				
+				<fieldset>
+				<legend  class=Parasubheader>3. Which snake can be found in South America?</legend>
+				<label><input type="radio" name="q4" value="Option1"> Ball Python </label>
+				<label><input type="radio" name="q4" value="Option2"> Corn Snake </label>
+				<label><input type="radio" name="q4" value="Option3"> Black Mamba</label>
+				<label><input type="radio" name="q4" value="Option4"> Green Anaconda</label> 
+				</fieldset> <br> 
+			
+				<button id="quizbtnSubmit">Submit Quiz</button> 
+				
+				<button id="quizresetbtn">Reset Quiz</button> 
+				<p class=Parasubheader id="scorebox">Not submitted</p> 
+				
+		</div>
+
+
+		<!--page 3 content (snakes in food)--> 
+		<div class="page" id="page3">
+			<p class=indexparagraph> <span class=Paraheader> Snake Soup </span> Snake soup is one of Hong Kong’s most storied dishes. Tracing its origins back over 2,000 years to ancient China, it’s considered both a delicacy and a form of traditional medicine, with early records suggesting that snake meat has health benefits. The dish became particularly popular in the southern provinces, including Guangdong. <br> <br> When Hong Kong developed as a port city in the 19th and 20th centuries, waves of migrants from Guangdong brought their food traditions with them, including snake soup. It was often made with up to five species of snakes, symbolizing wealth and abundance. Over time, it became a seasonal staple sold in specialized shops, particularly during autumn and winter. </p>
+			<p class=indexparagraph> Despite its humble appearance, snake soup is a labor-intensive dish. Traditionally, multiple types of snakes, such as water snakes, rat snakes, and cobras, are used to create a complex flavor profile. Today, due to regulations and availability, recipes vary, but the principle ingredients remain the same. <br> Snake meat is carefully cleaned and boiled, then shredded into fine, delicate strands. Oftentimes, the meat is shredded in such a way that first-time eaters mistake it for chicken or fish. <br> <br> The broth is equally important. It’s normally made by simmering pork bones, chicken, dried seafood, ginger, dried orange peel, lemongrass, dried mushrooms, and more Chinese herbs for several hours to develop a savory base. Then, the shredded snake meat is added to the broth along with thickening agents like cornstarch or ground almonds, giving the soup its signature, slightly viscous texture. The final touch often includes chrysanthemum leaves, thin strips of egg, and sometimes fried wonton crisps or lemon leaves for garnish. <br> <br> </p>
+			<p class=indexparagraph> <span class=Paraheader> Cultural significance </span>  Snake soup is considered a warming food in the framework of traditional Chinese medicine, meaning it helps restore internal heat during colder months — hence its popularity from late autumn through winter. <br> The dish is also associated with strength and vitality. Snake meat is believed to improve circulation, nourish the skin, and boost overall energy. <br> Beyond the purported nutritional benefits, snake soup carries a sense of nostalgia and heritage in Hong Kong. <br> </p>
+			<figure>
+				<picture>
+					<img src="images/SnakeSoup.jpg" height="530" alt="Picture of Snake Soup" title=" Picture of Snake Soup">
+				</picture>	
+				<figcaption> <a href="https://commons.wikimedia.org/wiki/File:CornSnake.jpg" target="_blank"> "Snake Soup" </a>  By  Food & Wine / Breana Killeen,  Image ©  Food & Wine / Breana Killeen.</figcaption>
+			</figure>
+			
+			
+			<p class=indexparagraph> <span class=Paraheader>  Snake Curry </span>  Found in some regions of India and Southeast Asia. <br> Snake meat is cooked in a spicy curry with onions, tomatoes, garlic, ginger, and local spices. It is typically served with rice or flatbread. <br> Snake meat is generally high in protein and low in fat. People describe its taste as being similar to chicken, frog legs, or firm white fish, depending on species and how it is cooked.</p>
+			<figure>
+				<picture>
+					<img src="images/SnakeCurry.jpg" height="530" alt="Picture of Snake Curry" title=" Picture of Snake Curry">
+				</picture>	
+				<figcaption> <a href="https://sandyathome.com/hyderabadi-snake-gourd-salan-how-to-make-potlakaya-salan-recipe/" target="_blank"> "Snake Curry" </a>  By Sandhya's Recipes, Image © Sandhya's Recipes</figcaption>
+			</figure>
+			
+		</div>
+		
+		<!--page 4 content (Game)--> 
+		<div class="page" id="page4">
+		
+			<p class=indexparagraph> <span class=Paraheader> Snake Mini-Game </span> </p> 
+			
+			<p class=indexparagraph>  The game goes like this. You control the snake (using A and D and W for PC and the buttons for mobile) and can go right or left and jump. Avoid the hazards and get to the end to win. Press (R on PC or the reset button on mobile) to reset </p> 
+			
+			
+	
+			
+			<div id="Minigame">
+				<p id="gamestatus"> Not Running </p> 
+				<div id="playercontrol"> </div>
+				<div id="Rock"></div>
+				
+				
+				
+			</div>
+			
+			<!--These are for the buttons for the game on mobile--> 
+			<button class=indexparagraph id="gamestartbutton"> Start Game </button> 
+			<button class=indexparagraph id="mobilegameleft"> Move Left </button> 
+			<button class=indexparagraph id="mobilegameright"> Move Right </button> 
+			<button class=indexparagraph id="mobilegamejump"> Jump </button> 
+			<button class=indexparagraph id="mobilegamereset"> Reset </button> 
+			
+		</div>
+		
+		<footer>
+			<p class="indexparagraph"> Written by Rian Peh / 白轩伟. Check out my Instagram (Click the icon)</p>
+			<a href="https://www.instagram.com/fullybizarree/" target="_blank" class="indexinstagram"><img id="instalogo" src="images/insta.jpg" height="100" alt="instagram_logo" title="instagram_logo"></a>
+		</footer>
+		
+	</main>
+	
+</body>
+
+
